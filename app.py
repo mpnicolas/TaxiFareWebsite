@@ -27,7 +27,7 @@ url = 'https://taxifare.lewagon.ai/predict'
 #if url == 'https://taxifare.lewagon.ai/predict'
 
 #2. Let's build a dictionary containing the parameters for our API...
-if st.button('Calcul tarif'):
+if st.button('Calcul tarif:'):
 
     params = dict(pickup_datetime=str(d) + " " + str(t),
               pickup_longitude=lon1,
